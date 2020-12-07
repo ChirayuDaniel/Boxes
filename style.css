@@ -1,0 +1,35 @@
+h1{ 
+    color: Blue
+    }
+    
+    *{
+        border: solid;
+        color: rgb(0, 0, 0)
+        }
+    .header {
+        background-color: rgba(161, 98, 98, 0.897);
+        display : flex;
+        justify-content: space-evenly;
+    }
+
+    .class {
+        display : flex;
+        flex-wrap: wrap;
+        background-color : rgba(146, 68, 68, 0.801);
+    }
+
+    .square {
+     background-color: rgb(165, 98, 98);
+     flex-wrap: wrap;
+     justify-content: space-evenly;
+    }
+
+    .photo{
+        background-color: rgb(163, 114, 114);
+        display: flex;
+        justify-content: flex-start;
+    }
+
+    h2,p{
+        text-align: center;
+    }
